@@ -7,3 +7,33 @@
   justify-content:space-between;
   
 }
+
+body {
+  background-color: aliceblue;
+}
+
+.userTitle {
+  margin: 20px;
+  text-decoration: underline;
+}
+
+.computerTitle {
+  margin: 20px;
+  text-decoration: underline;
+}
+
+#shoot {
+  border: inset lightgreen;
+}
+
+#shoot:hover {
+  border: outset lightpink;
+}
+
+#input {
+  background-color: white;
+}
+
+#input:focus {
+  border: double salmon 5px;
+}
