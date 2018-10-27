@@ -69,6 +69,8 @@ $("button").click(function(){
     } else if (computerScore >= 10) {
         alert("The computer is the overall winner!");
     }
+    
+    $("#input").val("");
 });
 
 
