@@ -12,7 +12,7 @@ var randomNumber = 0;
 var userScore = 0;
 var computerScore = 0;
 
-
+$("#gunpic").hide();
 
 // DOCUMENT READY FUNCTION BELOW
 $("button").click(function(){
@@ -55,6 +55,11 @@ $("button").click(function(){
         $("#result").text(winner);
     } else if(computerChoice === userChoice) {
         var winner = "Tie!";
+        $("#result").text(winner);
+    } else if(userChoice === "gun".toLowerCase()){
+        $("marquee").text("Yay! Now you can dominate the world! :D").attr("scrollamount","20");
+        $("#gunpic").show();
+        var winner = ":3"
         $("#result").text(winner);
     } else {
         var winner = "Not valid";

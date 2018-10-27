@@ -6,7 +6,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 ## Day 1
 
 #### Planning
-- [ ] Complete the project planning document.
+- [x] Complete the project planning document.
 #### Set-Up
 - [x] Go to the repository at https://github.com/ScriptEdcurriculum/rockpaperscissors
 - [x] Fork this repository to your github account and clone to a new workspace

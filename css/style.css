@@ -37,3 +37,7 @@ body {
 #input:focus {
   border: double salmon 5px;
 }
+
+#gunpic {
+  display: none;
+}
